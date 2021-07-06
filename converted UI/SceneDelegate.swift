@@ -19,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let _ = (scene as? UIWindowScene) else { return }
         
         let nav1 = UINavigationController()
-        let vc: UIViewController = ScanQRMainVC()
+        let vc: UIViewController = CorporateUserLogin()
         nav1.viewControllers = [vc]
         window!.rootViewController = nav1
         nav1.isNavigationBarHidden = true
